@@ -69,10 +69,10 @@ run().catch(console.dir);
  
 
 
-app.get('/', (req, res) => { //4
+app.get('/', (req, res) => { 
     res.send('Running Genius Server');
 
 });
-app.listen(port, () => { //5
+app.listen(port, () => { 
     console.log('Running Genius Server on port', port);
 })
